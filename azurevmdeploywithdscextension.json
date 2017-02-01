@@ -276,7 +276,7 @@
           }
         }
       }
-    }
+    },
 	
 	{
         "type": "Microsoft.Compute/virtualMachines/extensions",
