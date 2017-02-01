@@ -58,21 +58,21 @@
         },
         "registrationKey": {
             "type": "securestring",
-			"defaultValue": "iiaM3WSO/i3c3eStFugrdax85IHEWihO1V1VixfSPbamCVlkXx88xO47piD3jQRX60OXNknwVzc9P5aaIPiX7Q=="
+			"defaultValue": "iiaM3WSO/i3c3eStFugrdax85IHEWihO1V1VixfSPbamCVlkXx88xO47piD3jQRX60OXNknwVzc9P5aaIPiX7Q==",
             "metadata": {
                 "description": "Registration key to use to onboard to the Azure Automation DSC pull/reporting server"
             }
         },
         "registrationUrl": {
             "type": "string",
-			"defaultValue": "https://sea-agentservice-prod-1.azure-automation.net/accounts/3c6e3fcc-7d59-41e8-bbf5-5e6752f82ffe"
+			"defaultValue": "https://sea-agentservice-prod-1.azure-automation.net/accounts/3c6e3fcc-7d59-41e8-bbf5-5e6752f82ffe",
             "metadata": {
                 "description": "Registration url of the Azure Automation DSC pull/reporting server"
             }
         },
         "nodeConfigurationName": {
             "type": "string",
-			"defaultValue": "AddHostsEntry"
+			"defaultValue": "AddHostsEntry"，
             "metadata": {
                 "description": "The name of the node configuration, on the Azure Automation DSC pull server, that this node will be configured as"
             }
