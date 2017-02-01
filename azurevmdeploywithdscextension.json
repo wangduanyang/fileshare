@@ -16,6 +16,7 @@
     },
     "dnsLabelPrefix": {
       "type": "string",
+	  "defaultValue": "yangwinvm",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
@@ -280,7 +281,7 @@
 	
 	{
         "type": "Microsoft.Compute/virtualMachines/extensions",
-        "name": "[concat(parameters('vmName'),'/Microsoft.Powershell.DSC')]",
+        "name": "DSCExtension2Vm",
         "apiVersion": "2015-06-15",
         "location": "[resourceGroup().location]",
         "properties": {
